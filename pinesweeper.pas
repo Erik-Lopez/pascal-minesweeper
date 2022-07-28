@@ -230,5 +230,5 @@ begin (* entrypoint *)
 		end;
 	end;
 
-	if Win then WriteLn('¡Ganaste 😊!') else WriteLn('¡Perdiste 😭!');
+	if Win then WriteLn('¡You won 😊!') else WriteLn('¡You lost 😭!');
 end.
