@@ -156,7 +156,7 @@ type
 								Neighbours := FieldCellCountNeighbours(Field, Row, Col);
 								if Neighbours > 0 then Write(Neighbours) else Write('_');
 							end;
-							Bomb: Write('*');
+							Bomb: Write('🌲');
 						end;
 					end;
 					Closed: Write('#');
