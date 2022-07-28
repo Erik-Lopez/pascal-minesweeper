@@ -160,7 +160,7 @@ type
 						end;
 					end;
 					Closed: Write('#');
-					Flagged: Write('!');
+					Flagged: Write('x');
 				end;
 				Write(Separator);
 			end;
@@ -182,7 +182,7 @@ type
 (* Para cada función existe un apartado `var` y uno `const` para declarar todas las variables y constantes. *)
 const
 	STDIN_FD = 0;
-	BOMB_TO_CELL_RATIO = 0.3;
+	BOMB_TO_CELL_RATIO = 0.2;
 var
 	MainField: Field;
 	Quit, Win: Boolean;
