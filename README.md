@@ -2,7 +2,7 @@
 
 A simple terminal minesweeper in [Free Pascal](https://www.freepascal.org/), but with **pines 🌲**.
 
-![Quicktran](https://github.com/Erik-Lopez/pinesweeper/blob/media/pinesweeper.png)
+![Pinesweeper](https://github.com/Erik-Lopez/pinesweeper/blob/media/pinesweeper.png)
 
 ## Quickstart
 
