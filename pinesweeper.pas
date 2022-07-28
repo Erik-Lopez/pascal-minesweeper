@@ -182,6 +182,7 @@ type
 (* Para cada función existe un apartado `var` y uno `const` para declarar todas las variables y constantes. *)
 const
 	STDIN_FD = 0;
+	BOMB_TO_CELL_RATIO = 0.3;
 var
 	MainField: Field;
 	Quit, Win: Boolean;
@@ -200,7 +201,7 @@ begin (* entrypoint *)
 
 	randomize();
 	FieldResize(MainField, 10, 10);
-	FieldInit(MainField, 0.1);
+	FieldInit(MainField, BOMB_TO_CELL_RATIO);
 	
 	FieldWrite(MainField);
 
