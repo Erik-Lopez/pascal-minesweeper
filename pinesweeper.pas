@@ -160,7 +160,7 @@ type
 						end;
 					end;
 					Closed: Write('#');
-					Flagged: Write('!');
+					Flagged: Write('x');
 				end;
 				Write(Separator);
 			end;
