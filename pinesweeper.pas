@@ -213,9 +213,9 @@ begin (* entrypoint *)
 		Read(Ch);
 		case Ch of
 			'h': FieldCursorMove(MainField, 0, -1);
-			'j': FieldCursorMove(MainField, 1, 0);
-			'k': FieldCursorMove(MainField, -1, 0);
-			'l': FieldCursorMove(MainField, 0, 1);
+			'n': FieldCursorMove(MainField, 1, 0);
+			'e': FieldCursorMove(MainField, -1, 0);
+			'i': FieldCursorMove(MainField, 0, 1);
 			' ': if FieldCellOpen(MainField) = Bomb then Quit := True;
 			'!': FieldStateSet(MainField, MainField.CursorRow, MainField.CursorCol, Flagged);
 		end;
